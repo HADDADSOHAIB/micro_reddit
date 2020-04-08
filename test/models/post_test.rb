@@ -1,12 +1,11 @@
 require 'test_helper'
 
 class PostTest < ActiveSupport::TestCase
-
   def setup
     @user = User.new(username: 'Example user', email: 'user@example.com')
     @user.save
-    @post = Post.new(title: 'Example user', body: 'this is the generic body', 
-    user: @user)
+    @post = Post.new(title: 'Example user', body: 'this is the generic body',
+                     user: @user)
   end
 
   test 'should be valid' do
@@ -22,6 +21,4 @@ class PostTest < ActiveSupport::TestCase
     @post.body = 'aa'
     assert_not @post.valid?
   end
-
-
 end
