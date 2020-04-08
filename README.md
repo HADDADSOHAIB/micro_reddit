@@ -1,6 +1,6 @@
 # Toy App
 
-This (data model only) project builds an application (data model only) similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
+This project builds an application (data model only) similar to Reddit (called Micro-Reddit) where a user can create a post and add comments to it.
 
 
 ## Enviroment set up requirements
